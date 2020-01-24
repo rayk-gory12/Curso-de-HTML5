@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CCS/ESTILO.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section> 
+           <form name ="datosUsuarios" method= "get">
+               <table>
+                   <tr>
+                       <td>
+                           USUARIO:
+                       </td>  
+                   
+                       <td>
+                           <input pattern="[A-Za-z]{3}" name="usuario" id="usuario"  maxlength="10" required>
+                       </td>
+                   </tr>
+                   <tr>
+                    <td>
+                           Email:
+                       </td>  
+                       
+                       <td>
+                           <input type ="email" name="miEmail" id="miEmail" required>
+                       </td>
+                   </tr>
+                    <tr>
+                    <td>
+                           EDAD:
+                       </td>  
+                       
+                       <td>
+                           <input type ="range" name="miEdad" id="miEdad"
+                                  min="0" max="120" step="30" value="30">
+                       </td>
+                   </tr>
+                    <tr>
+               
+                      <td>
+                           <output id="rango">0 a 30 </output>
+                       </td>
+                   </tr>
+                   <tr>
+               
+                      <td>
+                          <input type="submit" id="enviar" value="REGISTRAR">
+                       </td>
+                   </tr>
+                   
+               </table>   
+                
+                
+            </form>
+        
+        
+        </section>
+        <script src="JS/FUNCIONALIDAD.js"></script>
+    </body>
+</html>

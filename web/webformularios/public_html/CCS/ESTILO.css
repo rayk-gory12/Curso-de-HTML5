@@ -1,0 +1,20 @@
+section{
+    border: 5px purple solid;
+    margin: 45px;
+    padding: 45px;
+    width: 900px;
+    height: 600px;
+        
+    background-image: url("https://as01.epimg.net/meristation/imagenes/2019/12/03/reportajes/1575329707_015803_1575375870_noticia_normal.jpg");
+}
+
+table{
+    margin: auto;
+    background-color: yellowgreen;
+    }
+    td{
+        background-color: grey;
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
